@@ -8,7 +8,7 @@ Everything runs on your computer! The chat AI is local and completely free! Acco
 
 ## Download
 
-Get `Bunbun.exe` from the [latest release](https://github.com/itsoulxc/bunbun-companion/releases/latest) and double-click it. It's portable, so there's nothing to install.
+Follow the instructions on the [latest release](https://github.com/itsoulxc/bunbun-companion/releases/latest).
 
 **Requirements:** Windows 10 or 11 (64-bit).
 
