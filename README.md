@@ -1,8 +1,8 @@
 # Bunbun
 
-Bunbun is a 3D bunny that lives on your Windows desktop. You can drag him around, chat with him by typing or talking, and ask him to play music, set alarms, open apps, or clean up your PC. He's inspired by BonziBuddy and old desktop pets.
+Bunbun is your very own bunny assistant! You can drag him around, chat with him by typing or talking, and ask him to play music, set alarms, open apps, or clean up your PC. He's inspired by BonziBuddy and old desktop pets.
 
-Everything runs on your computer. The chat AI is local, so there's no account, no subscription and no cloud.
+Everything runs on your computer! The chat AI is local and completely free! Account is purely optional and just required to obtain carrots and gain access to more content!
 
 ---
 
@@ -12,7 +12,7 @@ Get `Bunbun.exe` from the [latest release](https://github.com/itsoulxc/bunbun-co
 
 **Requirements:** Windows 10 or 11 (64-bit).
 
-Windows may show a SmartScreen warning because the exe isn't signed. Click **More info**, then **Run anyway**.
+Windows may show a SmartScreen warning because the exe isn't signed! Click **More info**, then **Run anyway**.
 
 ---
 
