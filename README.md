@@ -1,78 +1,76 @@
-# Bunbun!
+# Bunbun
 
-Bunbun is an interactive 3D desktop companion for Windows, inspired by BonziBuddy, Microsoft Agent, and nostalgic virtual pets of the Windows XP era. It lives as a floating, draggable character on your desktop featuring real-time 3D pixel-art animations, voice recognition, speech bubbles, an offline AI assistant, retro arcade minigames, a media deck, and PC utility tools.
+Bunbun is a 3D bunny that lives on your Windows desktop. You can drag him around, chat with him by typing or talking, and ask him to play music, set alarms, open apps, or clean up your PC. He's inspired by BonziBuddy and old desktop pets.
 
-Built with Electron and Node.js.
-
----
-
-## Features
-
-### Desktop Companion
-- **3D Character Animations:** Smooth real-time states including idle breathing, ear twitches, blinking, talking mouth flaps, waving, grooving to music, sweeping/cleaning, sleeping, and animated burrowing/emerging from ground holes.
-- **Speech Bubble & Voice Input:** Windows XP comic-balloon dialogue with typewriter delivery, live URL hyperlinks, action confirmations for critical commands, and speech-to-text mic voice recognition.
-- **Desktop Interaction & Memory:** Click and drag Bunbun freely across multi-monitor setups. Bunbun remembers your dragged position on restart, auto-burrows after inactivity, and wakes back up with a click or tray summon.
-- **System Tray:** Minimize Bunbun to the tray at any time, toggle visibility, clean your PC with one click, or summon Bunbun back out of his burrow.
-
-### BunbunWORLD Control Center
-A complete dashboard styled after vintage Windows XP with bamboo and wood accents:
-- **Audio & Media Deck:** Audio visualizer with playlists, lofi tunes, local music streaming, and AI music recommendations.
-- **Arcade & Minigames:** Built-in retro arcade featuring Whack-a-Bun 3D, Bun-Sweeper (Minesweeper), Carrot Catch, and Bun-Memory.
-- **Wardrobe & Closet:** Dress up Bunbun with equippable hats, glasses, and accessories that render directly on your desktop companion.
-- **BunLearn & Preferences:** Configure microphone input devices with live volume meters, manage user profile memory, and customize companion behaviors.
-- **Planner & Alarms:** Alarms, countdown timers, reminders, and calendar tasks that alert you even with the dashboard closed.
-
-### Local AI & Assistant
-- **Private & Offline:** Local conversational SLM that responds to queries without requiring paid cloud APIs or tracking personal data.
-- **App Control & Shortcuts:** Open installed desktop applications, Windows system programs, or custom user shortcuts directly via voice or text.
-- **Media Controls:** Manage volume, skip tracks, and play songs from playlists directly through natural chat commands.
-
-### PC Utilities & System Health
-- **PC Cleaner:** One-click junk cache clearing, temp directory cleanup, and DNS cache flushing.
-- **Process & Bottleneck Inspector:** Monitor high CPU/RAM usage and kill unresponsive tasks with safety confirmation dialogs.
-- **Windows Defender:** Trigger security scans directly through native Windows security interfaces.
+Everything runs on your computer. The chat AI is local, so there's no account, no subscription and no cloud.
 
 ---
 
-## Requirements
+## Download
 
-- Windows 10 or Windows 11 (64-bit)
+Get `Bunbun.exe` from the [latest release](https://github.com/itsoulxc/bunbun-companion/releases/latest) and double-click it. It's portable, so there's nothing to install.
+
+**Requirements:** Windows 10 or 11 (64-bit).
+
+Windows may show a SmartScreen warning because the exe isn't signed. Click **More info**, then **Run anyway**.
 
 ---
 
-## Installation
+## What Bunbun does
 
-Download `Bunbun.exe` from the [latest release](https://github.com/itsoulxc/bunbun-companion/releases/latest) and double-click it. No install needed (portable).
+**On your desktop**
+- Sits on your screen with idle, talking, waving, dancing and sleeping animations.
+- Drag him anywhere, including across monitors. He remembers where you left him.
+- Burrows into the ground when you haven't used him for a while. Click him or use the tray icon to bring him back.
+- Chat in a speech bubble by typing, or use the mic button to talk.
+
+**Control Center** (double-click Bunbun)
+- **Media Deck:** play music from playlists or by song name.
+- **Arcade:** minigames to earn carrots (Whack-a-Bun, Bun-Sweeper, Carrot Catch, Bun Memory).
+- **Wardrobe:** spend carrots on hats, glasses and accessories.
+- **Planner:** alarms, timers, reminders and to-dos. They go off even when the Control Center is closed.
+- **Profile and settings:** pick your microphone, tell Bunbun about yourself, and adjust how he behaves.
+
+**Assistant**
+- Chats using a small AI model that runs offline on your PC.
+- Opens apps, controls music volume, skips tracks and plays songs from what you type or say.
+
+**PC tools**
+- Clear temp files and flush the DNS cache.
+- See which programs use the most CPU and RAM, and close a stuck one (it asks first).
+- Start a Windows Defender scan.
 
 ---
 
 ## Controls
 
-- **Drag:** Click and hold Bunbun to reposition him anywhere on your desktop.
-- **Click:** Wake up Bunbun or open his speech bubble to chat.
-- **Double-Click:** Launch BunbunWORLD Control Center.
-- **Mic Button:** Toggle voice speech-to-text input to talk directly to Bunbun.
-- **Right-Click:** Open the context menu for quick PC optimization and shortcuts.
-- **System Tray:** Right-click or double-click the tray icon to show, hide, or reset Bunbun's position.
+| Action | What it does |
+|---|---|
+| Drag | Move Bunbun around the desktop |
+| Click | Wake him up or open the chat bubble |
+| Double-click | Open the Control Center |
+| Mic button | Talk instead of typing |
+| Right-click | Quick menu for PC cleanup and shortcuts |
+| Tray icon | Show, hide or reset Bunbun's position |
 
 ---
 
-## Example Commands
+## Commands
 
-Type or speak commands into Bunbun's speech bubble:
+Type or say these in the chat bubble. Small typos and different wording are fine.
 
-| Command | Action |
+| Say | What happens |
 |---|---|
-| `open [app]` | Launch any installed app or game (e.g., `open chrome`, `open notepad`) |
-| `clean pc` / `optimize` | Clean temporary files and free system memory |
-| `scan bottlenecks` | Inspect top CPU and memory-consuming processes |
-| `kill [process]` | Safely terminate an unresponsive program (with prompt) |
-| `play [song]` / `play music` | Play a track or stream music via the media player |
-| `volume up` / `volume down` | Adjust media deck playback volume |
-| `set an alarm for [time]` | Set a native planner alarm or reminder |
-| `tell me a joke` | Hear a fresh joke from Bunbun |
-| `tell me a fact` | Share a fun animal or bunny trivia fact |
-| `hide` / `burrow` | Send Bunbun into his burrow |
+| `open [app]` | Opens an installed app or game, like `open chrome` |
+| `play [song]` | Plays a song |
+| `stop music` / `skip` | Stops or skips the current song |
+| `volume up` / `volume down` | Changes the music volume |
+| `set an alarm for [time]` | Sets an alarm |
+| `clean pc` | Clears temp files and flushes DNS |
+| `scan bottlenecks` | Shows what's using the most CPU and RAM |
+| `kill [process]` | Closes a program (asks first) |
+| `tell me a joke` / `tell me a fact` | A joke or a bunny fact |
+| `hide` | Sends Bunbun into his burrow |
 
 ---
 
